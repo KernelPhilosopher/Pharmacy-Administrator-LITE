@@ -260,8 +260,6 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -513,8 +511,6 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addContainerGap(87, Short.MAX_VALUE))
         );
 
-        jPanel2.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 780));
-
         jPanel3.setBackground(new java.awt.Color(102, 102, 255));
         jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
@@ -573,11 +569,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addContainerGap())
         );
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, 990, 110));
-
         jTabbedPanePanels.setBackground(new java.awt.Color(255, 255, 255));
         jTabbedPanePanels.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jTabbedPanePanels.setForeground(new java.awt.Color(0, 0, 0));
         jTabbedPanePanels.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jTabbedPanePanels.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
 
@@ -587,119 +580,88 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jPanel20.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel20.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Product Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel20.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel20.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Product Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15))); // NOI18N
 
         jLabel15.setBackground(new java.awt.Color(255, 255, 255));
         jLabel15.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("ID:");
 
         txtProductID.setEditable(false);
         txtProductID.setBackground(new java.awt.Color(255, 255, 255));
         txtProductID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtProductID.setForeground(new java.awt.Color(0, 0, 0));
         txtProductID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtProductID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtProductID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtProductID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtProductID.setEnabled(false);
         txtProductID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel16.setBackground(new java.awt.Color(255, 255, 255));
         jLabel16.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("Name:");
 
-        txtProductName.setBackground(new java.awt.Color(255, 255, 255));
         txtProductName.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtProductName.setForeground(new java.awt.Color(0, 0, 0));
         txtProductName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtProductName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtProductName.setCaretColor(new java.awt.Color(0, 0, 0));
         txtProductName.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtProductName.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel17.setBackground(new java.awt.Color(255, 255, 255));
         jLabel17.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setText("Unit price:");
 
-        txtProductSalesPrice.setBackground(new java.awt.Color(255, 255, 255));
         txtProductSalesPrice.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtProductSalesPrice.setForeground(new java.awt.Color(0, 0, 0));
         txtProductSalesPrice.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtProductSalesPrice.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtProductSalesPrice.setCaretColor(new java.awt.Color(0, 0, 0));
         txtProductSalesPrice.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtProductSalesPrice.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel18.setBackground(new java.awt.Color(255, 255, 255));
         jLabel18.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("Category:");
 
-        cmbProductsCategories.setBackground(new java.awt.Color(255, 255, 255));
         cmbProductsCategories.setFont(new java.awt.Font("Microsoft Tai Le", 1, 20)); // NOI18N
-        cmbProductsCategories.setForeground(new java.awt.Color(0, 0, 0));
         cmbProductsCategories.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         cmbProductsCategories.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel20.setBackground(new java.awt.Color(255, 255, 255));
         jLabel20.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(0, 0, 0));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("Description:");
 
-        txtProductDescription.setBackground(new java.awt.Color(255, 255, 255));
         txtProductDescription.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtProductDescription.setForeground(new java.awt.Color(0, 0, 0));
         txtProductDescription.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtProductDescription.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtProductDescription.setCaretColor(new java.awt.Color(0, 0, 0));
         txtProductDescription.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtProductDescription.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnProductRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnProductRegister.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnProductRegister.setForeground(new java.awt.Color(0, 0, 0));
         btnProductRegister.setText("Register");
         btnProductRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnProductModify.setBackground(new java.awt.Color(255, 255, 255));
         btnProductModify.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnProductModify.setForeground(new java.awt.Color(0, 0, 0));
         btnProductModify.setText("Modify");
         btnProductModify.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnProductDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnProductDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnProductDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnProductDelete.setText("Delete");
         btnProductDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnProductCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnProductCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnProductCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnProductCancel.setText("Cancel");
         btnProductCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel19.setBackground(new java.awt.Color(255, 255, 255));
         jLabel19.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("Stock:");
 
-        txtProductQuantity.setBackground(new java.awt.Color(255, 255, 255));
         txtProductQuantity.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtProductQuantity.setForeground(new java.awt.Color(0, 0, 0));
         txtProductQuantity.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtProductQuantity.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtProductQuantity.setCaretColor(new java.awt.Color(0, 0, 0));
         txtProductQuantity.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtProductQuantity.setSelectionColor(new java.awt.Color(102, 102, 255));
 
@@ -773,10 +735,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        productTable.setBackground(new java.awt.Color(255, 255, 255));
         productTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         productTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        productTable.setForeground(new java.awt.Color(0, 0, 0));
         productTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -802,16 +762,12 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel35.setBackground(new java.awt.Color(255, 255, 255));
         jLabel35.setFont(new java.awt.Font("Microsoft YaHei", 1, 15)); // NOI18N
-        jLabel35.setForeground(new java.awt.Color(0, 0, 0));
         jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel35.setText("Search by name:");
 
-        txtSearchProduct.setBackground(new java.awt.Color(255, 255, 255));
         txtSearchProduct.setFont(new java.awt.Font("Microsoft YaHei", 0, 15)); // NOI18N
-        txtSearchProduct.setForeground(new java.awt.Color(0, 0, 0));
         txtSearchProduct.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSearchProduct.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSearchProduct.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSearchProduct.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -852,148 +808,114 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel13.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel21.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Purchasing Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel21.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel21.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Purchasing Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15))); // NOI18N
         jPanel21.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel21.setPreferredSize(new java.awt.Dimension(829, 245));
 
         jLabel21.setBackground(new java.awt.Color(255, 255, 255));
         jLabel21.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel21.setText("Product:");
 
         jLabel22.setBackground(new java.awt.Color(255, 255, 255));
         jLabel22.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(0, 0, 0));
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setText("Product ID:");
 
         txtPurchaseProductID.setEditable(false);
         txtPurchaseProductID.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchaseProductID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtPurchaseProductID.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchaseProductID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchaseProductID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchaseProductID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchaseProductID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchaseProductID.setEnabled(false);
         txtPurchaseProductID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel23.setBackground(new java.awt.Color(255, 255, 255));
         jLabel23.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(0, 0, 0));
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setText("Quantity:");
 
-        txtPurchaseProductQuantity.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchaseProductQuantity.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtPurchaseProductQuantity.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchaseProductQuantity.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchaseProductQuantity.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchaseProductQuantity.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchaseProductQuantity.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchaseProductQuantity.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel24.setBackground(new java.awt.Color(255, 255, 255));
         jLabel24.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(0, 0, 0));
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("Supplier:");
 
-        cmbPurchasesSupplier.setBackground(new java.awt.Color(255, 255, 255));
         cmbPurchasesSupplier.setFont(new java.awt.Font("Microsoft Tai Le", 1, 20)); // NOI18N
-        cmbPurchasesSupplier.setForeground(new java.awt.Color(0, 0, 0));
         cmbPurchasesSupplier.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         cmbPurchasesSupplier.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel25.setBackground(new java.awt.Color(255, 255, 255));
         jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(0, 0, 0));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel25.setText("Customer:");
 
         jLabel26.setBackground(new java.awt.Color(255, 255, 255));
         jLabel26.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
         jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel26.setText("Purchase price:");
 
         txtPurchasePrice.setEditable(false);
         txtPurchasePrice.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchasePrice.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtPurchasePrice.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchasePrice.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchasePrice.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchasePrice.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchasePrice.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchasePrice.setEnabled(false);
         txtPurchasePrice.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel28.setBackground(new java.awt.Color(255, 255, 255));
         jLabel28.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
         jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel28.setText("Total:");
 
         txtPurchaseTotal.setEditable(false);
         txtPurchaseTotal.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchaseTotal.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtPurchaseTotal.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchaseTotal.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchaseTotal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchaseTotal.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchaseTotal.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchaseTotal.setEnabled(false);
         txtPurchaseTotal.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnPurchaseAdd.setBackground(new java.awt.Color(255, 255, 255));
         btnPurchaseAdd.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnPurchaseAdd.setForeground(new java.awt.Color(0, 0, 0));
         btnPurchaseAdd.setText("Add");
         btnPurchaseAdd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnPurchaseBuy.setBackground(new java.awt.Color(255, 255, 255));
         btnPurchaseBuy.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnPurchaseBuy.setForeground(new java.awt.Color(0, 0, 0));
         btnPurchaseBuy.setText("Buy");
         btnPurchaseBuy.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnPurchaseDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnPurchaseDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnPurchaseDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnPurchaseDelete.setText("Delete");
         btnPurchaseDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnPurchaseCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnPurchaseCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnPurchaseCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnPurchaseCancel.setText("Cancel");
         btnPurchaseCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        cmbPurchasesProduct.setBackground(new java.awt.Color(255, 255, 255));
         cmbPurchasesProduct.setFont(new java.awt.Font("Microsoft Tai Le", 1, 20)); // NOI18N
-        cmbPurchasesProduct.setForeground(new java.awt.Color(0, 0, 0));
         cmbPurchasesProduct.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        cmbPurchasesCustomer.setBackground(new java.awt.Color(255, 255, 255));
         cmbPurchasesCustomer.setFont(new java.awt.Font("Microsoft Tai Le", 1, 20)); // NOI18N
-        cmbPurchasesCustomer.setForeground(new java.awt.Color(0, 0, 0));
         cmbPurchasesCustomer.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel29.setBackground(new java.awt.Color(255, 255, 255));
         jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
         jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel29.setText("Purchase ID:");
 
         txtPurchaseID.setEditable(false);
         txtPurchaseID.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchaseID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtPurchaseID.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchaseID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchaseID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchaseID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchaseID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchaseID.setEnabled(false);
         txtPurchaseID.setSelectionColor(new java.awt.Color(102, 102, 255));
@@ -1076,10 +998,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addGap(17, 17, 17))
         );
 
-        purchaseTable.setBackground(new java.awt.Color(255, 255, 255));
         purchaseTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         purchaseTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        purchaseTable.setForeground(new java.awt.Color(0, 0, 0));
         purchaseTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -1131,106 +1051,78 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel14.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel22.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Customer Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel22.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel22.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Customer Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15))); // NOI18N
 
         lblCustomerEmail.setBackground(new java.awt.Color(255, 255, 255));
         lblCustomerEmail.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        lblCustomerEmail.setForeground(new java.awt.Color(0, 0, 0));
         lblCustomerEmail.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblCustomerEmail.setText("Mail:");
 
-        txtCustomerMail.setBackground(new java.awt.Color(255, 255, 255));
         txtCustomerMail.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCustomerMail.setForeground(new java.awt.Color(0, 0, 0));
         txtCustomerMail.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCustomerMail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCustomerMail.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCustomerMail.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtCustomerMail.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         lblCustomerName.setBackground(new java.awt.Color(255, 255, 255));
         lblCustomerName.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        lblCustomerName.setForeground(new java.awt.Color(0, 0, 0));
         lblCustomerName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblCustomerName.setText("Name:");
 
-        txtCustomerName.setBackground(new java.awt.Color(255, 255, 255));
         txtCustomerName.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCustomerName.setForeground(new java.awt.Color(0, 0, 0));
         txtCustomerName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCustomerName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCustomerName.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCustomerName.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         lblCustomerAddress.setBackground(new java.awt.Color(255, 255, 255));
         lblCustomerAddress.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        lblCustomerAddress.setForeground(new java.awt.Color(0, 0, 0));
         lblCustomerAddress.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblCustomerAddress.setText("Address:");
 
-        txtCustomerAddress.setBackground(new java.awt.Color(255, 255, 255));
         txtCustomerAddress.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCustomerAddress.setForeground(new java.awt.Color(0, 0, 0));
         txtCustomerAddress.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCustomerAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCustomerAddress.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCustomerAddress.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtCustomerAddress.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         lblCustomerID.setBackground(new java.awt.Color(255, 255, 255));
         lblCustomerID.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        lblCustomerID.setForeground(new java.awt.Color(0, 0, 0));
         lblCustomerID.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblCustomerID.setText("ID:");
 
         txtCustomerID.setEditable(false);
         txtCustomerID.setBackground(new java.awt.Color(255, 255, 255));
         txtCustomerID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCustomerID.setForeground(new java.awt.Color(0, 0, 0));
         txtCustomerID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCustomerID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCustomerID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCustomerID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtCustomerID.setEnabled(false);
         txtCustomerID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         lblCustomerTelephone.setBackground(new java.awt.Color(255, 255, 255));
         lblCustomerTelephone.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        lblCustomerTelephone.setForeground(new java.awt.Color(0, 0, 0));
         lblCustomerTelephone.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblCustomerTelephone.setText("Telephone:");
 
-        txtCustomerTelephone.setBackground(new java.awt.Color(255, 255, 255));
         txtCustomerTelephone.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCustomerTelephone.setForeground(new java.awt.Color(0, 0, 0));
         txtCustomerTelephone.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCustomerTelephone.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCustomerTelephone.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCustomerTelephone.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtCustomerTelephone.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnCustomerRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnCustomerRegister.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCustomerRegister.setForeground(new java.awt.Color(0, 0, 0));
         btnCustomerRegister.setText("Register");
         btnCustomerRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCustomerModify.setBackground(new java.awt.Color(255, 255, 255));
         btnCustomerModify.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCustomerModify.setForeground(new java.awt.Color(0, 0, 0));
         btnCustomerModify.setText("Modify");
         btnCustomerModify.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCustomerDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnCustomerDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCustomerDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnCustomerDelete.setText("Delete");
         btnCustomerDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCustomerCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnCustomerCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCustomerCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnCustomerCancel.setText("Cancel");
         btnCustomerCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -1301,22 +1193,16 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel36.setBackground(new java.awt.Color(255, 255, 255));
         jLabel36.setFont(new java.awt.Font("Microsoft YaHei", 1, 15)); // NOI18N
-        jLabel36.setForeground(new java.awt.Color(0, 0, 0));
         jLabel36.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel36.setText("Search by name:");
 
-        txtSearchCustomer.setBackground(new java.awt.Color(255, 255, 255));
         txtSearchCustomer.setFont(new java.awt.Font("Microsoft YaHei", 0, 15)); // NOI18N
-        txtSearchCustomer.setForeground(new java.awt.Color(0, 0, 0));
         txtSearchCustomer.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSearchCustomer.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSearchCustomer.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSearchCustomer.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        customersTable.setBackground(new java.awt.Color(255, 255, 255));
         customersTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         customersTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        customersTable.setForeground(new java.awt.Color(0, 0, 0));
         customersTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -1377,138 +1263,103 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel15.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Staff Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel23.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Staff Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15))); // NOI18N
         jPanel23.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel23.setPreferredSize(new java.awt.Dimension(829, 245));
 
         jLabel32.setBackground(new java.awt.Color(255, 255, 255));
         jLabel32.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel32.setForeground(new java.awt.Color(0, 0, 0));
         jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel32.setText("Username:");
 
-        txtEmployeeUser.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeUser.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeUser.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeUser.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeUser.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeUser.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeUser.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeUser.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel37.setBackground(new java.awt.Color(255, 255, 255));
         jLabel37.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel37.setForeground(new java.awt.Color(0, 0, 0));
         jLabel37.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel37.setText("Password:");
 
         jLabel38.setBackground(new java.awt.Color(255, 255, 255));
         jLabel38.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel38.setForeground(new java.awt.Color(0, 0, 0));
         jLabel38.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel38.setText("Name:");
 
-        txtEmployeeName.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeName.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeName.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeName.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeName.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeName.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel39.setBackground(new java.awt.Color(255, 255, 255));
         jLabel39.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel39.setForeground(new java.awt.Color(0, 0, 0));
         jLabel39.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel39.setText("Role:");
 
-        cmbEmployeeRol.setBackground(new java.awt.Color(255, 255, 255));
         cmbEmployeeRol.setFont(new java.awt.Font("Microsoft Tai Le", 1, 20)); // NOI18N
-        cmbEmployeeRol.setForeground(new java.awt.Color(0, 0, 0));
         cmbEmployeeRol.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Auxiliary", "Administrator" }));
         cmbEmployeeRol.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         cmbEmployeeRol.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel40.setBackground(new java.awt.Color(255, 255, 255));
         jLabel40.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel40.setForeground(new java.awt.Color(0, 0, 0));
         jLabel40.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel40.setText("Mail:");
 
-        txtEmployeeEmail.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeEmail.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeEmail.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeEmail.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeEmail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeEmail.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeEmail.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeEmail.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel41.setBackground(new java.awt.Color(255, 255, 255));
         jLabel41.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel41.setForeground(new java.awt.Color(0, 0, 0));
         jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel41.setText("Address:");
 
-        txtEmployeeAddress.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeAddress.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeAddress.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeAddress.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeAddress.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeAddress.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeAddress.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnEmployeeRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnEmployeeRegister.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnEmployeeRegister.setForeground(new java.awt.Color(0, 0, 0));
         btnEmployeeRegister.setText("Register");
         btnEmployeeRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnEmployeeUpdate.setBackground(new java.awt.Color(255, 255, 255));
         btnEmployeeUpdate.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnEmployeeUpdate.setForeground(new java.awt.Color(0, 0, 0));
         btnEmployeeUpdate.setText("Modify");
         btnEmployeeUpdate.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnEmployeeDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnEmployeeDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnEmployeeDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnEmployeeDelete.setText("Delete");
         btnEmployeeDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnEmployeeCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnEmployeeCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnEmployeeCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnEmployeeCancel.setText("Cancel");
         btnEmployeeCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jLabel43.setBackground(new java.awt.Color(255, 255, 255));
         jLabel43.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel43.setForeground(new java.awt.Color(0, 0, 0));
         jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel43.setText("ID:");
 
         txtEmployeeID.setEditable(false);
         txtEmployeeID.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeID.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeID.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         txtEmployeeID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeID.setEnabled(false);
         txtEmployeeID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        txtEmployeePassword.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeePassword.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeePassword.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeePassword.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeePassword.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeePassword.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeePassword.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeePassword.setSelectionColor(new java.awt.Color(102, 102, 255));
 
@@ -1550,7 +1401,7 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                         .addGap(48, 48, 48)
                         .addComponent(jLabel43)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtEmployeeID, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)))
+                        .addComponent(txtEmployeeID, javax.swing.GroupLayout.DEFAULT_SIZE, 165, Short.MAX_VALUE)))
                 .addContainerGap(91, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
@@ -1593,10 +1444,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        employeesTable.setBackground(new java.awt.Color(255, 255, 255));
         employeesTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         employeesTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        employeesTable.setForeground(new java.awt.Color(0, 0, 0));
         employeesTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -1622,16 +1471,12 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel42.setBackground(new java.awt.Color(255, 255, 255));
         jLabel42.setFont(new java.awt.Font("Microsoft YaHei", 1, 15)); // NOI18N
-        jLabel42.setForeground(new java.awt.Color(0, 0, 0));
         jLabel42.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel42.setText("Search by name:");
 
-        txtSearchEmployee.setBackground(new java.awt.Color(255, 255, 255));
         txtSearchEmployee.setFont(new java.awt.Font("Microsoft YaHei", 0, 15)); // NOI18N
-        txtSearchEmployee.setForeground(new java.awt.Color(0, 0, 0));
         txtSearchEmployee.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSearchEmployee.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSearchEmployee.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSearchEmployee.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
@@ -1671,134 +1516,98 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel16.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Supplier Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel24.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Supplier Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15))); // NOI18N
         jPanel24.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel24.setPreferredSize(new java.awt.Dimension(829, 245));
 
         jLabel44.setBackground(new java.awt.Color(255, 255, 255));
         jLabel44.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel44.setForeground(new java.awt.Color(0, 0, 0));
         jLabel44.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel44.setText("Name:");
 
-        txtSupplierName.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierName.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierName.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierName.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierName.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel45.setBackground(new java.awt.Color(255, 255, 255));
         jLabel45.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel45.setForeground(new java.awt.Color(0, 0, 0));
         jLabel45.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel45.setText("Address:");
 
-        txtSupplierAddress.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierAddress.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierAddress.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierAddress.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierAddress.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierAddress.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel46.setBackground(new java.awt.Color(255, 255, 255));
         jLabel46.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel46.setForeground(new java.awt.Color(0, 0, 0));
         jLabel46.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel46.setText("Telephone:");
 
-        txtSupplierTelephone.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierTelephone.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierTelephone.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierTelephone.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierTelephone.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierTelephone.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierTelephone.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel47.setBackground(new java.awt.Color(255, 255, 255));
         jLabel47.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel47.setForeground(new java.awt.Color(0, 0, 0));
         jLabel47.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel47.setText("Description:");
 
         jLabel48.setBackground(new java.awt.Color(255, 255, 255));
         jLabel48.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel48.setForeground(new java.awt.Color(0, 0, 0));
         jLabel48.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel48.setText("ID:");
 
         txtSupplierID.setEditable(false);
         txtSupplierID.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierID.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtSupplierID.setEnabled(false);
         txtSupplierID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel49.setBackground(new java.awt.Color(255, 255, 255));
         jLabel49.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel49.setForeground(new java.awt.Color(0, 0, 0));
         jLabel49.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel49.setText("Mail:");
 
-        txtSupplierMail.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierMail.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierMail.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierMail.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierMail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierMail.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierMail.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel50.setBackground(new java.awt.Color(255, 255, 255));
         jLabel50.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        jLabel50.setForeground(new java.awt.Color(0, 0, 0));
         jLabel50.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel50.setText("City:");
 
-        txtSupplierCity.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierCity.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierCity.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierCity.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierCity.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierCity.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierCity.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnSupplierRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnSupplierRegister.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnSupplierRegister.setForeground(new java.awt.Color(0, 0, 0));
         btnSupplierRegister.setText("Register");
         btnSupplierRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnSupplierModify.setBackground(new java.awt.Color(255, 255, 255));
         btnSupplierModify.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnSupplierModify.setForeground(new java.awt.Color(0, 0, 0));
         btnSupplierModify.setText("Modify");
         btnSupplierModify.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnSupplierDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnSupplierDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnSupplierDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnSupplierDelete.setText("Delete");
         btnSupplierDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnSupplierCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnSupplierCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnSupplierCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnSupplierCancel.setText("Cancel");
         btnSupplierCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        txtSupplierDescription.setBackground(new java.awt.Color(255, 255, 255));
         txtSupplierDescription.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtSupplierDescription.setForeground(new java.awt.Color(0, 0, 0));
         txtSupplierDescription.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSupplierDescription.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSupplierDescription.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSupplierDescription.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
@@ -1876,10 +1685,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addGap(17, 17, 17))
         );
 
-        supplierTable.setBackground(new java.awt.Color(255, 255, 255));
         supplierTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         supplierTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        supplierTable.setForeground(new java.awt.Color(0, 0, 0));
         supplierTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -1905,16 +1712,12 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel51.setBackground(new java.awt.Color(255, 255, 255));
         jLabel51.setFont(new java.awt.Font("Microsoft YaHei", 1, 15)); // NOI18N
-        jLabel51.setForeground(new java.awt.Color(0, 0, 0));
         jLabel51.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel51.setText("Search by name:");
 
-        txtSearchSupplier.setBackground(new java.awt.Color(255, 255, 255));
         txtSearchSupplier.setFont(new java.awt.Font("Microsoft YaHei", 0, 15)); // NOI18N
-        txtSearchSupplier.setForeground(new java.awt.Color(0, 0, 0));
         txtSearchSupplier.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtSearchSupplier.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtSearchSupplier.setCaretColor(new java.awt.Color(0, 0, 0));
         txtSearchSupplier.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
@@ -1954,63 +1757,47 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel17.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel25.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Category Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel25.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel25.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Category Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei", 1, 15))); // NOI18N
         jPanel25.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel25.setPreferredSize(new java.awt.Dimension(829, 245));
 
         jLabel52.setBackground(new java.awt.Color(255, 255, 255));
         jLabel52.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel52.setForeground(new java.awt.Color(0, 0, 0));
         jLabel52.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel52.setText("Name:");
 
-        txtCategoryName.setBackground(new java.awt.Color(255, 255, 255));
         txtCategoryName.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCategoryName.setForeground(new java.awt.Color(0, 0, 0));
         txtCategoryName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCategoryName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCategoryName.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCategoryName.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel53.setBackground(new java.awt.Color(255, 255, 255));
         jLabel53.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel53.setForeground(new java.awt.Color(0, 0, 0));
         jLabel53.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel53.setText("ID:");
 
         txtCategoryID.setEditable(false);
         txtCategoryID.setBackground(new java.awt.Color(255, 255, 255));
         txtCategoryID.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtCategoryID.setForeground(new java.awt.Color(0, 0, 0));
         txtCategoryID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCategoryID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtCategoryID.setCaretColor(new java.awt.Color(0, 0, 0));
         txtCategoryID.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtCategoryID.setEnabled(false);
         txtCategoryID.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnCategoryRegister.setBackground(new java.awt.Color(255, 255, 255));
         btnCategoryRegister.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCategoryRegister.setForeground(new java.awt.Color(0, 0, 0));
         btnCategoryRegister.setText("Register");
         btnCategoryRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCategoryModify.setBackground(new java.awt.Color(255, 255, 255));
         btnCategoryModify.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCategoryModify.setForeground(new java.awt.Color(0, 0, 0));
         btnCategoryModify.setText("Modify");
         btnCategoryModify.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCategoryDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnCategoryDelete.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCategoryDelete.setForeground(new java.awt.Color(0, 0, 0));
         btnCategoryDelete.setText("Delete");
         btnCategoryDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        btnCategoryCancel.setBackground(new java.awt.Color(255, 255, 255));
         btnCategoryCancel.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnCategoryCancel.setForeground(new java.awt.Color(0, 0, 0));
         btnCategoryCancel.setText("Cancel");
         btnCategoryCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -2057,10 +1844,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        categoryTable.setBackground(new java.awt.Color(255, 255, 255));
         categoryTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         categoryTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        categoryTable.setForeground(new java.awt.Color(0, 0, 0));
         categoryTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2115,10 +1900,8 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel18.setForeground(new java.awt.Color(255, 255, 255));
 
-        reportsTable.setBackground(new java.awt.Color(255, 255, 255));
         reportsTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         reportsTable.setFont(new java.awt.Font("Microsoft Tai Le", 1, 15)); // NOI18N
-        reportsTable.setForeground(new java.awt.Color(0, 0, 0));
         reportsTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2143,23 +1926,19 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel54.setBackground(new java.awt.Color(255, 255, 255));
         jLabel54.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 30)); // NOI18N
-        jLabel54.setForeground(new java.awt.Color(0, 0, 0));
         jLabel54.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel54.setText("Purchases made");
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 20)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Total:");
 
         txtPurchaseReport.setEditable(false);
         txtPurchaseReport.setBackground(new java.awt.Color(255, 255, 255));
         txtPurchaseReport.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        txtPurchaseReport.setForeground(new java.awt.Color(0, 0, 0));
         txtPurchaseReport.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtPurchaseReport.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtPurchaseReport.setCaretColor(new java.awt.Color(0, 0, 0));
         txtPurchaseReport.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtPurchaseReport.setEnabled(false);
         txtPurchaseReport.setSelectionColor(new java.awt.Color(102, 102, 255));
@@ -2201,110 +1980,82 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
         jPanel19.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel26.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Configuration Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15), new java.awt.Color(0, 0, 0))); // NOI18N
-        jPanel26.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel26.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Configuration Panel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Microsoft YaHei UI", 1, 15))); // NOI18N
 
         jLabel55.setBackground(new java.awt.Color(255, 255, 255));
         jLabel55.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel55.setForeground(new java.awt.Color(0, 0, 0));
         jLabel55.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel55.setText("Mail:");
 
-        txtEmployeeEmailConfigurations.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeEmailConfigurations.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeEmailConfigurations.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeEmailConfigurations.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeEmailConfigurations.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeEmailConfigurations.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeEmailConfigurations.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeEmailConfigurations.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel56.setBackground(new java.awt.Color(255, 255, 255));
         jLabel56.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel56.setForeground(new java.awt.Color(0, 0, 0));
         jLabel56.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel56.setText("Name:");
 
-        txtEmployeeNameConfigurations.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeNameConfigurations.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeNameConfigurations.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeNameConfigurations.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeNameConfigurations.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeNameConfigurations.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeNameConfigurations.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeNameConfigurations.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel57.setBackground(new java.awt.Color(255, 255, 255));
         jLabel57.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel57.setForeground(new java.awt.Color(0, 0, 0));
         jLabel57.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel57.setText("Address:");
 
-        txtEmployeeAddressConfigurations.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeAddressConfigurations.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeAddressConfigurations.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeAddressConfigurations.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeAddressConfigurations.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeAddressConfigurations.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeAddressConfigurations.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeAddressConfigurations.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel58.setBackground(new java.awt.Color(255, 255, 255));
         jLabel58.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel58.setForeground(new java.awt.Color(0, 0, 0));
         jLabel58.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel58.setText("New password:");
 
         jLabel59.setBackground(new java.awt.Color(255, 255, 255));
         jLabel59.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel59.setForeground(new java.awt.Color(0, 0, 0));
         jLabel59.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel59.setText("ID:");
 
         txtEmployeeIDConfigurations.setEditable(false);
         txtEmployeeIDConfigurations.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeeIDConfigurations.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeeIDConfigurations.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeeIDConfigurations.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeeIDConfigurations.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeeIDConfigurations.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeeIDConfigurations.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeeIDConfigurations.setEnabled(false);
         txtEmployeeIDConfigurations.setSelectionColor(new java.awt.Color(102, 102, 255));
 
         jLabel60.setBackground(new java.awt.Color(255, 255, 255));
         jLabel60.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jLabel60.setForeground(new java.awt.Color(0, 0, 0));
         jLabel60.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel60.setText("Confirm password:");
 
-        txtEmployeePasswordConfirm.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeePasswordConfirm.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeePasswordConfirm.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfirm.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeePasswordConfirm.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeePasswordConfirm.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfirm.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfirm.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnModifyPasswordActual.setBackground(new java.awt.Color(255, 255, 255));
         btnModifyPasswordActual.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnModifyPasswordActual.setForeground(new java.awt.Color(0, 0, 0));
         btnModifyPasswordActual.setText("Change Password");
         btnModifyPasswordActual.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        txtEmployeePasswordConfiguration.setBackground(new java.awt.Color(255, 255, 255));
         txtEmployeePasswordConfiguration.setFont(new java.awt.Font("Microsoft YaHei", 0, 20)); // NOI18N
-        txtEmployeePasswordConfiguration.setForeground(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfiguration.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtEmployeePasswordConfiguration.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        txtEmployeePasswordConfiguration.setCaretColor(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfiguration.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtEmployeePasswordConfiguration.setSelectionColor(new java.awt.Color(102, 102, 255));
 
-        btnChangePersonalData.setBackground(new java.awt.Color(255, 255, 255));
         btnChangePersonalData.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        btnChangePersonalData.setForeground(new java.awt.Color(0, 0, 0));
         btnChangePersonalData.setText("Change personal data");
 
         javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
@@ -2416,20 +2167,16 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 35)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Instructions for use");
 
-        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 20)); // NOI18N
-        jTextArea1.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
         jTextArea1.setText("# User Guide for Pharmacy Management Application\n\n## Roles and Permissions\n\n### Owner and Administrators\n- **Owner**: Full access to all functions.\n- **Administrators**: Same permissions as the owner, designated by the owner.\n\n### Auxiliaries\n- Limited access to functions related to:\n  - Product purchases or inquiries.\n  - Queries regarding suppliers, customers, and reports.\n\n## Registration\n\nTo start using the application, you need to register. The registration button will be disabled after you register, so ensure you choose a username, password, and other details carefully. Upon registration, you will assume the role of the Owner.\n\n### Steps to Register:\n1. Navigate to the login window (the one with the image of a vase).\n2. Click the \"Sign up\" button.\n3. In the registration window (the one with the image of a building), fill in your details.\n4. Read the terms and conditions (recommended).\n5. Press the \"Register\" button.\n\n## Logging In\n\n### Steps to Log In:\n1. Enter your username and password in the login window.\n2. Press \"Start.\"\n\n## Navigating the Application\n\nUpon logging in, you will be redirected to the administration panel.\n\n### Navigation:\n- A menu on the left side contains various sections.\n- To navigate, hover over a section label and click to be redirected to the corresponding panel.\n\n## Cancelling Actions\n\nEach section has a \"Cancel\" button. Press it to stop the current action and clear the fields.\n\n## Employee Management\n\n### Registering an Employee:\n1. Go to the employee panel in the Administration window.\n2. Click on the employee section in the left menu.\n3. Fill in the employee's details and select their role (Administrator or Assistant).\n4. Press the \"Register\" button.\n\n### Modifying an Employee:\n1. In the employee panel, select the employee you wish to modify.\n2. Update the fields with the new details.\n3. Press the \"Modify\" button.\n\n### Deleting an Employee:\n1. In the employee panel, select the employee you wish to delete.\n2. Press the \"Delete\" button.\n\n## Customer Management\n\n### Registering a Customer:\n1. Go to the customer panel in the Administration window.\n2. Click on the customer section in the left menu.\n3. Fill in the customer's details.\n4. Press the \"Register\" button.\n\n### Modifying a Customer:\n1. In the customer panel, select the customer you wish to modify.\n2. Update the fields with the new details.\n3. Press the \"Modify\" button.\n\n### Deleting a Customer:\n1. In the customer panel, select the customer you wish to delete.\n2. Press the \"Delete\" button.\n\n## Supplier Management\n\n### Registering a Supplier:\n1. Go to the supplier panel in the Administration window.\n2. Click on the supplier section in the left menu.\n3. Fill in the supplier's details.\n4. Press the \"Register\" button.\n\n### Modifying a Supplier:\n1. In the supplier panel, select the supplier you wish to modify.\n2. Update the fields with the new details.\n3. Press the \"Modify\" button.\n\n### Deleting a Supplier:\n1. In the supplier panel, select the supplier you wish to delete.\n2. Press the \"Delete\" button.\n\n## Category Management\n\n### Registering a Category:\n1. Go to the category panel in the Administration window.\n2. Click on the category section in the left menu.\n3. Enter the category name and other details.\n4. Press the \"Register\" button.\n\n### Modifying a Category:\n1. In the category panel, select the category you wish to modify.\n2. Update the fields with the new details.\n3. Press the \"Modify\" button.\n\n### Deleting a Category:\n1. In the category panel, select the category you wish to delete.\n2. Press the \"Delete\" button.\n\n## Product Management\n\n### Registering a Product:\n1. Ensure you have at least one category registered.\n2. Go to the product panel.\n3. Fill in the product details and select its category.\n4. Press the \"Register\" button.\n\n### Modifying a Product:\n1. In the product panel, select the product you wish to modify.\n2. Update the fields with the new details.\n3. Press the \"Modify\" button.\n\n### Deleting a Product:\n1. In the product panel, select the product you wish to delete.\n2. Press the \"Delete\" button.\n\n## Purchases\n\n### Registering Purchases in Process:\n1. Ensure you have at least one product, customer, and supplier registered.\n2. Go to the purchase panel.\n3. Select the product, customer, and supplier, then fill in the \"Quantity\" field.\n4. Click \"Add\" to finalize each purchase.\n5. Click \"Buy\" to complete and record the purchase in the Reports section.\n\n### Deleting a Purchase in Process:\n1. Select the purchase in process you wish to delete.\n2. Press the \"Delete\" button.");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jTextArea1.setCaretColor(new java.awt.Color(0, 0, 0));
         jTextArea1.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextArea1.setEnabled(false);
         jTextArea1.setSelectionColor(new java.awt.Color(102, 102, 255));
@@ -2458,20 +2205,40 @@ public class Administration extends javax.swing.JFrame implements GraphicalConfi
 
         jTabbedPanePanels.addTab("Instructions", jPanel5);
 
-        jPanel2.add(jTabbedPanePanels, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 150, 990, 630));
-
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Microsoft New Tai Lue", 1, 20)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Thank you for choosing the application.");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 950, 40));
 
-        btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/ImageBack (1).png"))); // NOI18N
         btnBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel2.add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 0, 40, 40));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 950, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, 0)
+                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTabbedPanePanels, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jTabbedPanePanels, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
